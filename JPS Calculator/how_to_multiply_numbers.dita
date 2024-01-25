@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_multiply_numbers">
+    <title>How to Multiply Numbers?</title>
+    <shortdesc>Here you will find instructions about using the multiplication feature of JPS
+        Calculator App</shortdesc>
+    <taskbody>
+        <prereq id="prereq_lrd_m2q_21c">
+            <p>To successfully subtract numbers, you must know what is multiplicaton.</p>
+        </prereq>
+        <steps>
+            <step>
+                <cmd>Enter the first number</cmd>
+            </step>
+            <step>
+                <cmd>Choose the multiply (*) button</cmd>
+            </step>
+            <step>
+                <cmd>Enter the second number</cmd>
+            </step>
+            <step>
+                <cmd>Choose the equal (=) button</cmd>
+            </step>
+        </steps>
+        <result id="result_dtm_q2q_21c">
+            <p>The result from the multiplication is displayed.</p>
+        </result>
+        <example id="example_snt_r2q_21c">
+            <p>You want to multiply 2 and 3. The equation will look like 2*3=6. You enter 2. Press
+                multiply. Enter 3. Press equals.</p>
+            <p>The result 6 will appear on the screen.</p>
+        </example>
+    </taskbody>
+</task>

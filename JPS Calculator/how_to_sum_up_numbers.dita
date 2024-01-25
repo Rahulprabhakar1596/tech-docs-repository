@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_sum_up_numbers">
+    <title>How to Sum Up Numbers?</title>
+    <shortdesc>Here you will find instructions about using the addition feature of JPS Calculator
+        App</shortdesc>
+    <taskbody>
+        <prereq id="prereq_cn2_4dq_21c">To successfully sum up numbers, you must know what is
+            addition.</prereq>
+        <steps>
+            <step>
+                <cmd>Enter the first number</cmd>
+            </step>
+            <step>
+                <cmd>Choose the plus (+) button</cmd>
+            </step>
+            <step>
+                <cmd>Enter the second button</cmd>
+            </step>
+            <step>
+                <cmd>Choose the equal (=) button</cmd>
+            </step>
+        </steps>
+        <result id="result_dyv_vdq_21c">The result from the addition is displayed.</result>
+        <example id="example_cqy_wdq_21c">
+            <p>You want to add 2 from 3. The equation will look like 2+3=5. You enter 2. Press add.
+                Enter 3. Press equals.</p>
+            <p>The result 5 will appear on the screen.</p>
+        </example>
+    </taskbody>
+</task>

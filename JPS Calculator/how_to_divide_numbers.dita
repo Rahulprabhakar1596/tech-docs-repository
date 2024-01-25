@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="how_to_divide_numbers">
+    <title>How to Divide Numbers?</title>
+    <shortdesc>Here you will find instructions about using the division feature of JPS Calculator
+        App</shortdesc>
+    <taskbody>
+        <prereq id="prereq_osk_1fq_21c">To successfully subtract numbers, you must know what is
+            dicivison.</prereq>
+        <steps>
+            <step>
+                <cmd>Enter the first number</cmd>
+            </step>
+            <step>
+                <cmd>Choose the divide (/) button</cmd>
+            </step>
+            <step>
+                <cmd>Enter the second button</cmd>
+            </step>
+            <step>
+                <cmd>Choose the equal (=) button</cmd>
+            </step>
+        </steps>
+        <result id="result_nsp_nfq_21c">
+            <p>The result from the division is displayed.</p>
+        </result>
+        <example id="example_itm_4fq_21c">
+            <p>You want to divide 6 from 3. The equation will look like 6/3=2. You enter 6. Press
+                divide. Enter 3. Press equals.</p>
+            <p>The result 2 will appear on the screen.</p>
+        </example>
+    </taskbody>
+</task>
