@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Task Management API Docs</title>
+    <topicref href="task_management_api_documentation.dita"/>
+    <topicref href="api_endpoints.dita"/>
+    <topicref href="api_response_codes.dita"/>
+</map>
