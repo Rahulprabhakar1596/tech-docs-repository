@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="securevault_introduction">
+    <title>SecureVault Installation Guide</title>
+    <shortdesc>This guide provides step-by-step instructions for installing and configuring
+        SecureVault on your system.</shortdesc>
+    <conbody>
+        <p>SecureVault is a robust security software designed to safeguard your sensitive
+            information. This installation guide ensures a smooth setup process for optimal use of
+            SecureVault's features. &lt;/p></p>
+    </conbody>
+</concept>

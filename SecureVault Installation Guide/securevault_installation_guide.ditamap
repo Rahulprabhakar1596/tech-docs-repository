@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>SecureVault Documentation</title>
+    <topicref href="securevault-introduction.dita"/>
+    <topicref href="installing_securevault.dita"/>
+    <topicref href="configuring_securevault.dita"/>
+    <topicref href="securevault_system_requirements.dita"/>
+    <topicref href="securevault_configuration_options.dita"/>
+</map>

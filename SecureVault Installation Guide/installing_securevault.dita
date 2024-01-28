@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="installing_securevault">
+    <title>Installing SecureVault</title>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Download the SecureVault installer from the official website.</cmd>
+            </step>
+            <step>
+                <cmd>Run the installer executable and follow the on-screen instructions </cmd>
+                <info>Ensure that you have administrator privileges on your system</info>
+            </step>
+            <step>
+                <cmd>Choose the installation directory and click "Install."</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>
