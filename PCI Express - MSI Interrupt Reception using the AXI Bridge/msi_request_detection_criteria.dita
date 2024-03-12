@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="msi_request_detection_criteria">
+    <title>MSI Request Detection Criteria:</title>
+    <conbody>
+        <ul id="ul_drk_1rm_s1c">
+            <li>Header attributes bits are zero. No snoop (NS) and relaxed ordering (RO) must be
+                zero.</li>
+            <li>Length field is 0x01 to indicate a payload of one DWORD.</li>
+            <li>First byte enable (FBE) is 4’bxx11 (enabling the first two bytes of the
+                payload.)</li>
+            <li>Last byte enable (LBE) is 4’b0000.</li>
+            <li>TLP address corresponds to system’s chosen MSI address as programmed in the “MSI
+                Controller Address Register” <codeph>(MSI_CTRL_ADDR_REG and
+                    MSI_CTRL_UPPER_ADDR_REG)</codeph>. This register is not the “MSI Lower 32 Bits
+                Address Register” which is part of the PCI Express MSI capability register
+                structure. </li>
+        </ul>
+    </conbody>
+</concept>

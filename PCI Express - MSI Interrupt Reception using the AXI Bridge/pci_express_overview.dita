@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="pci_express_overview">
+    <title>PCI Express Overview</title>
+    <conbody>
+        <p>
+            <ul id="ul_ict_w4m_s1c">
+                <li>Peripheral Component Interconnect (PCI) is a connection interface standard.</li>
+                <li>The PCI Express is an upgrade over the previous PCI, where it offers more
+                    bandwidth and is compatible with existing operating systems. </li>
+                <li>Unlike the PCI’s parallel connection, the PCI handles several point-to-point
+                    serial connections with a switch (like a network).</li>
+            </ul>
+        </p>
+    </conbody>
+</concept>

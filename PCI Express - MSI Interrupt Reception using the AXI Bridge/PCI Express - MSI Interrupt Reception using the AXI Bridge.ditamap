@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>PCI Express - MSI Interrupt Reception using the AXI Bridge</title>
+    <topicref href="interrupts_overview.dita"/>
+    <topicref href="pci_express_overview.dita"/>
+    <topicref href="axi_bridge_overview.dita"/>
+    <topicref href="msi_reception_when_using_the_axi_bridge.dita"/>
+    <topicref href="features.dita"/>
+    <topicref href="msi_request_detection_criteria.dita"/>
+    <topicref href="dm_core_block_diagram_with_ahb_axi_bridge_module.dita"/>
+</map>

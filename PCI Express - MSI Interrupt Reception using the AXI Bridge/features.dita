@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="features">
+    <title>Features</title>
+    <shortdesc></shortdesc>
+    <refbody>
+        <example>
+            <ul id="ul_sjt_tqm_s1c">
+                <li>MSI interrupt controller is only enabled in RC mode when device type is 0x4. It
+                    is inactive in EP mode. </li>
+                <li>Up to eight EPs are supported by the MSI interrupt controller. </li>
+                <li>Each supported EP has a set of interrupt enable, mask, and status
+                    registers.</li>
+                <li>Guarantees correct AXI ordering with respect to other inbound posted writes by
+                    generating the MSI interrupt only after your application AXI slave acknowledges
+                    responses of previous posted TLPs.</li>
+                <li>A maximum of 32 interrupts are supported per EP.</li>
+                <li>Optional 32-bit register driven general purpose outputs
+                        <codeph>(msi_ctrl_io[31:0])</codeph></li>
+            </ul>
+        </example>
+    </refbody>
+</reference>

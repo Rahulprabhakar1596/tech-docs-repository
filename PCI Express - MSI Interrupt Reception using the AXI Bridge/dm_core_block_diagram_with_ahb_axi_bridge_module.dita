@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="dm_core_block_diagram_with_ahb_axi_bridge_module">
+    <title>DM Core Block Diagram (with AHB/AXI Bridge Module)</title>
+    <conbody>
+        <fig id="fig_rlg_jrm_s1c">
+            <image href="dm_core_block_diagram_with_ahb_axi_bridge_module.png"
+                id="image_rlc_lrm_s1c"/>
+        </fig>
+    </conbody>
+</concept>

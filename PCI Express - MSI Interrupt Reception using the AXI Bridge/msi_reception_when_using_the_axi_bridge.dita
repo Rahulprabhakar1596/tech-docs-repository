@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="msi_reception_when_using_the_axi_bridge">
+    <title>MSI Reception when using the AXI Bridge</title>
+    <shortdesc>The MSI are memory write (MWr) TLPs. The core automatically builds the MSI packet
+        whenever requested by your application logic and a simple handshake is all that is required.
+        The AXI bridge receives MSI requests in the same manner as a MWr. The termination of an MSI
+        request must be done by your application or by using the optional MSI
+        controller.</shortdesc>
+    <taskbody>
+        <context>
+            <p><b>AXI MSI Controller (RC Mode):</b></p>
+        </context>
+        <steps>
+            <step>
+                <cmd>The bridge provides an optional MSI controller to detect and terminate incoming
+                    MSI requests by enabling the <codeph>CX_MSI_CTRL_ENABLE =1</codeph></cmd>
+            </step>
+            <step>
+                <cmd>The MSI packets are captured and terminated in the AXI bridge, and an interrupt
+                    is signaled locally.</cmd>
+            </step>
+            <step>
+                <cmd>The MSI Controller is programmed with the similar system MSI address.</cmd>
+            </step>
+            <step>
+                <cmd>The MSI interrupt is detected when the received MWr request matches specified
+                    MSI address, along with the MSI memory write request conditions.</cmd>
+            </step>
+            <step>
+                <cmd>The MSI Controller that decodes the MSI MWr data payload that determines the
+                    Endpoint device (EP) and the interrupt vector corresponding to the MSI. </cmd>
+            </step>
+            <step>
+                <cmd><codeph>msi_ctrl_int output</codeph>is asserted when as valid interrupt is
+                    decoded.</cmd>
+            </step>
+            <step>
+                <cmd>De-assertion takes place when there is no MSI interrupt pending. </cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

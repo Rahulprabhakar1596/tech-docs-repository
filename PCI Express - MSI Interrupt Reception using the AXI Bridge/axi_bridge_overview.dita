@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="axi_bridge_overview">
+    <title>AXI Bridge Overview</title>
+    <conbody>
+        <ul id="ul_zb3_bpm_s1c">
+            <li>The AXI Bridge Module acts as a bridge between the standard AXI interfaces and the
+                Synopsys DesignWare PCIe core native interfaces. </li>
+            <li>The bridge interconnects the AXI interfaces within an AMBA-embedded system with a
+                remote PCIe link, as either a root complex port, or as an endpoint port.</li>
+        </ul>
+    </conbody>
+</concept>

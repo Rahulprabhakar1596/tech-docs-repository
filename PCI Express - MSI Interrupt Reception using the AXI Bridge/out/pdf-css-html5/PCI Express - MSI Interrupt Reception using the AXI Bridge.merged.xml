@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/rahul.p/AppData/Local/Programs/Oxygen%20XML%20Author%2026/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/rahul.p/AppData/Local/Programs/Oxygen%20XML%20Author%2026/frameworks/dita/DITA-OT/plugins/com.oxygenxml.pdf.css/css/print/p-dita.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/rahul.p/AppData/Local/Programs/Oxygen%20XML%20Author%2026/frameworks/dita/DITA-OT/plugins/com.oxygenxml.editlink/pdf-css.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/rahul.p/AppData/Local/Programs/Oxygen%20XML%20Author%2026/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/rahul.p/AppData/Local/Programs/Oxygen%20XML%20Author%2026/frameworks/dita/DITA-OT/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/notes.css'?>
+<map xmlns:css2fo="http://www.oxygenxml.com/css2fo" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:oxy="http://www.oxygenxml.com/extensions/author" xmlns:xs="http://www.w3.org/2001/XMLSchema" cascade="merge" class="- map/map " ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" specializations="@props/deliveryTarget" xtrc="map:1;3:6" xtrf="file:/D:/Skill%20Development/DITA/PCIe/PCI%20Express%20-%20MSI%20Interrupt%20Reception%20using%20the%20AXI%20Bridge.ditamap" xml:lang="en"><oxy:front-page class="- front-page/front-page "><oxy:front-page-title class="- front-page/front-page-title "><title xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- topic/title ">PCI Express - MSI Interrupt Reception using the AXI Bridge</title></oxy:front-page-title></oxy:front-page><opentopic:map xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- toc/toc "><oxy:toc-title class="- toc/title " empty="true"/>
+    <title class="- topic/title ">PCI Express - MSI Interrupt Reception using the AXI Bridge</title>
+    <topicref is-chapter="true" class="- map/topicref " href="#unique_1" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="pci_express_overview"><resourceid appid="pci_express_overview" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">PCI Express Overview</navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topicref is-chapter="true" class="- map/topicref " href="#unique_2" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="interrupts_overview"><resourceid appid="interrupts_overview" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_2" class="- topic/navtitle ">Interrupts Overview</navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topicref is-chapter="true" class="- map/topicref " href="#unique_3" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="axi_bridge_overview"><resourceid appid="axi_bridge_overview" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3" class="- topic/navtitle ">AXI Bridge Overview</navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topicref is-chapter="true" class="- map/topicref " href="#unique_4" type="task"><topicmeta class="- map/topicmeta " data-topic-id="msi_reception_when_using_the_axi_bridge"><resourceid appid="msi_reception_when_using_the_axi_bridge" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_4" class="- topic/navtitle ">MSI Reception when using the AXI Bridge</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">The MSI are memory write (MWr) TLPs. The core automatically builds the MSI packet         whenever requested by your application logic and a simple handshake is all that is required.         The AXI bridge receives MSI requests in the same manner as a MWr. The termination of an MSI         request must be done by your application or by using the optional MSI         controller.</shortdesc></topicmeta></topicref>
+    <topicref is-chapter="true" class="- map/topicref " href="#unique_5" type="reference"><topicmeta class="- map/topicmeta " data-topic-id="features"><resourceid appid="features" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_5" class="- topic/navtitle ">Features</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc "/></topicmeta></topicref>
+    <topicref is-chapter="true" class="- map/topicref " href="#unique_6" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="msi_request_detection_criteria"><resourceid appid="msi_request_detection_criteria" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_6" class="- topic/navtitle ">MSI Request Detection Criteria:</navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topicref is-chapter="true" class="- map/topicref " href="#unique_7" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="dm_core_block_diagram_with_ahb_axi_bridge_module"><resourceid appid="dm_core_block_diagram_with_ahb_axi_bridge_module" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_7" class="- topic/navtitle ">DM Core Block Diagram (with AHB/AXI Bridge Module)</navtitle><?ditaot gentext?></topicmeta></topicref>
+</opentopic:map><concept break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_1" topicrefclass="- map/topicref " nd:nd-id="pci_express_overview" oid="pci_express_overview" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">PCI Express Overview</ph></title>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">
+            <ul class="- topic/ul " id="unique_1_Connect_42_ul_ict_w4m_s1c" nd:nd-id="ul_ict_w4m_s1c">
+                <li class="- topic/li ">Peripheral Component Interconnect (PCI) is a connection interface standard.</li>
+                <li class="- topic/li ">The PCI Express is an upgrade over the previous PCI, where it offers more
+                    bandwidth and is compatible with existing operating systems. </li>
+                <li class="- topic/li ">Unlike the PCI’s parallel connection, the PCI handles several point-to-point
+                    serial connections with a switch (like a network).</li>
+            </ul>
+        </p>
+    </conbody>
+</concept><concept break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_2" topicrefclass="- map/topicref " nd:nd-id="interrupts_overview" oid="interrupts_overview" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Interrupts Overview</ph></title>
+    <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul " id="unique_2_Connect_42_ul_cql_z4m_s1c" nd:nd-id="ul_cql_z4m_s1c">
+            <li class="- topic/li ">Interrupts are a method of creating a break in the flow of function. </li>
+            <li class="- topic/li ">The PCI Express feature three main methods of interrupt handling: Legacy Interrupt,
+                Message Signaled Interrupts (MSI), and MSI-X.</li>
+        </ul>
+    </conbody>
+</concept><concept break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_3" topicrefclass="- map/topicref " nd:nd-id="axi_bridge_overview" oid="axi_bridge_overview" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">AXI Bridge Overview</ph></title>
+    <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul " id="unique_3_Connect_42_ul_zb3_bpm_s1c" nd:nd-id="ul_zb3_bpm_s1c">
+            <li class="- topic/li ">The AXI Bridge Module acts as a bridge between the standard AXI interfaces and the
+                Synopsys DesignWare PCIe core native interfaces. </li>
+            <li class="- topic/li ">The bridge interconnects the AXI interfaces within an AMBA-embedded system with a
+                remote PCIe link, as either a root complex port, or as an endpoint port.</li>
+        </ul>
+    </conbody>
+</concept><task break-before="true" is-chapter="true" class="- topic/topic task/task " id="unique_4" topicrefclass="- map/topicref " nd:nd-id="msi_reception_when_using_the_axi_bridge" oid="msi_reception_when_using_the_axi_bridge" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">MSI Reception when using the AXI Bridge</ph></title>
+    <shortdesc class="- topic/shortdesc ">The MSI are memory write (MWr) TLPs. The core automatically builds the MSI packet
+        whenever requested by your application logic and a simple handshake is all that is required.
+        The AXI bridge receives MSI requests in the same manner as a MWr. The termination of an MSI
+        request must be done by your application or by using the optional MSI
+        controller.</shortdesc>
+    <taskbody class="- topic/body task/taskbody ">
+        <context class="- topic/section task/context ">
+            <p class="- topic/p "><b class="+ topic/ph hi-d/b ">AXI MSI Controller (RC Mode):</b></p>
+        </context>
+        <steps class="- topic/ol task/steps ">
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">The bridge provides an optional MSI controller to detect and terminate incoming
+                    MSI requests by enabling the <codeph class="+ topic/ph pr-d/codeph ">CX_MSI_CTRL_ENABLE =1</codeph></cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">The MSI packets are captured and terminated in the AXI bridge, and an interrupt
+                    is signaled locally.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">The MSI Controller is programmed with the similar system MSI address.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">The MSI interrupt is detected when the received MWr request matches specified
+                    MSI address, along with the MSI memory write request conditions.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">The MSI Controller that decodes the MSI MWr data payload that determines the
+                    Endpoint device (EP) and the interrupt vector corresponding to the MSI. </cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd "><codeph class="+ topic/ph pr-d/codeph ">msi_ctrl_int output</codeph>is asserted when as valid interrupt is
+                    decoded.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">De-assertion takes place when there is no MSI interrupt pending. </cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task><reference break-before="true" is-chapter="true" class="- topic/topic       reference/reference " id="unique_5" topicrefclass="- map/topicref " nd:nd-id="features" oid="features" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Features</ph></title>
+    <shortdesc class="- topic/shortdesc "/>
+    <refbody class="- topic/body        reference/refbody ">
+        <example class="- topic/example ">
+            <ul class="- topic/ul " id="unique_5_Connect_42_ul_sjt_tqm_s1c" nd:nd-id="ul_sjt_tqm_s1c">
+                <li class="- topic/li ">MSI interrupt controller is only enabled in RC mode when device type is 0x4. It
+                    is inactive in EP mode. </li>
+                <li class="- topic/li ">Up to eight EPs are supported by the MSI interrupt controller. </li>
+                <li class="- topic/li ">Each supported EP has a set of interrupt enable, mask, and status
+                    registers.</li>
+                <li class="- topic/li ">Guarantees correct AXI ordering with respect to other inbound posted writes by
+                    generating the MSI interrupt only after your application AXI slave acknowledges
+                    responses of previous posted TLPs.</li>
+                <li class="- topic/li ">A maximum of 32 interrupts are supported per EP.</li>
+                <li class="- topic/li ">Optional 32-bit register driven general purpose outputs
+                        <codeph class="+ topic/ph pr-d/codeph ">(msi_ctrl_io[31:0])</codeph></li>
+            </ul>
+        </example>
+    </refbody>
+</reference><concept break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_6" topicrefclass="- map/topicref " nd:nd-id="msi_request_detection_criteria" oid="msi_request_detection_criteria" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">MSI Request Detection Criteria:</ph></title>
+    <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul " id="unique_6_Connect_42_ul_drk_1rm_s1c" nd:nd-id="ul_drk_1rm_s1c">
+            <li class="- topic/li ">Header attributes bits are zero. No snoop (NS) and relaxed ordering (RO) must be
+                zero.</li>
+            <li class="- topic/li ">Length field is 0x01 to indicate a payload of one DWORD.</li>
+            <li class="- topic/li ">First byte enable (FBE) is 4’bxx11 (enabling the first two bytes of the
+                payload.)</li>
+            <li class="- topic/li ">Last byte enable (LBE) is 4’b0000.</li>
+            <li class="- topic/li ">TLP address corresponds to system’s chosen MSI address as programmed in the “MSI
+                Controller Address Register” <codeph class="+ topic/ph pr-d/codeph ">(MSI_CTRL_ADDR_REG and
+                    MSI_CTRL_UPPER_ADDR_REG)</codeph>. This register is not the “MSI Lower 32 Bits
+                Address Register” which is part of the PCI Express MSI capability register
+                structure. </li>
+        </ul>
+    </conbody>
+</concept><concept break-before="true" is-chapter="true" class="- topic/topic concept/concept " id="unique_7" topicrefclass="- map/topicref " nd:nd-id="dm_core_block_diagram_with_ahb_axi_bridge_module" oid="dm_core_block_diagram_with_ahb_axi_bridge_module" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">DM Core Block Diagram (with AHB/AXI Bridge Module)</ph></title>
+    <conbody class="- topic/body  concept/conbody ">
+        <fig class="- topic/fig " id="unique_7_Connect_42_fig_rlg_jrm_s1c" nd:nd-id="fig_rlg_jrm_s1c"><image class="- topic/image " dita-ot:image-width="658" dita-ot:image-height="738" href="file:/D:/Skill%20Development/DITA/PCIe/dm_core_block_diagram_with_ahb_axi_bridge_module.png" id="unique_7_Connect_42_image_rlc_lrm_s1c" nd:nd-id="image_rlc_lrm_s1c" placement="inline"/></fig>
+    </conbody>
+</concept></map>
