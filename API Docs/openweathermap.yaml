@@ -1,0 +1,195 @@
+openapi: 3.0.0
+info:
+  title: OpenWeatherMap API
+  description: Provides real-time weather data for cities worldwide.
+  version: 1.0.0-oas3
+servers:
+- url: https://api.openweathermap.org/data/2.5
+paths:
+  /weather:
+    get:
+      summary: Retrieve current weather data for a specified city.
+      parameters:
+      - name: q
+        in: query
+        description: "City name (e.g., Bengaluru) or city name, state, and country code (e.g., London,uk)."
+        required: true
+        style: form
+        explode: true
+        schema:
+          type: string
+      - name: appid
+        in: query
+        description: Your API key.
+        required: true
+        style: form
+        explode: true
+        schema:
+          type: string
+      - name: units
+        in: query
+        description: "Units of measurement (standard, metric, imperial). Default is standard."
+        required: false
+        style: form
+        explode: true
+        schema:
+          type: string
+          default: standard
+      - name: lang
+        in: query
+        description: "Language code (e.g., en, es). Default is en."
+        required: false
+        style: form
+        explode: true
+        schema:
+          type: string
+          default: en
+      responses:
+        "200":
+          description: Successful response with current weather data.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/inline_response_200'
+        "401":
+          description: Unauthorized - Invalid or missing API key.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/inline_response_401'
+        "404":
+          description: Not Found - City not found or incorrect endpoint.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/inline_response_404'
+components:
+  schemas:
+    inline_response_200:
+      type: object
+      properties:
+        coord:
+          type: object
+          properties:
+            lon:
+              type: number
+              example: 77.6033
+            lat:
+              type: number
+              example: 12.9762
+        weather:
+          type: array
+          items:
+            type: object
+            properties:
+              id:
+                type: number
+                example: 802
+              main:
+                type: string
+                example: Clouds
+              description:
+                type: string
+                example: scattered clouds
+              icon:
+                type: string
+                example: 03n
+        base:
+          type: string
+          example: stations
+        main:
+          type: object
+          properties:
+            temp:
+              type: number
+              example: 27.25
+            feels_like:
+              type: number
+              example: 29.38
+            temp_min:
+              type: number
+              example: 25.73
+            temp_max:
+              type: number
+              example: 28.62
+            pressure:
+              type: number
+              example: 1008
+            humidity:
+              type: number
+              example: 71
+            sea_level:
+              type: number
+              example: 1008
+            grnd_level:
+              type: number
+              example: 909
+        visibility:
+          type: number
+          example: 6000
+        wind:
+          type: object
+          properties:
+            speed:
+              type: number
+              example: 2.06
+            deg:
+              type: number
+              example: 290
+        clouds:
+          type: object
+          properties:
+            all:
+              type: number
+              example: 40
+        dt:
+          type: number
+          example: 1723296490
+        sys:
+          type: object
+          properties:
+            type:
+              type: number
+              example: 2
+            id:
+              type: number
+              example: 2017753
+            country:
+              type: string
+              example: IN
+            sunrise:
+              type: number
+              example: 1723250208
+            sunset:
+              type: number
+              example: 1723295592
+        timezone:
+          type: number
+          example: 19800
+        id:
+          type: number
+          example: 1277333
+        name:
+          type: string
+          example: Bengaluru
+        cod:
+          type: number
+          example: 200
+    inline_response_401:
+      type: object
+      properties:
+        cod:
+          type: number
+          example: 401
+        message:
+          type: string
+          example: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+    inline_response_404:
+      type: object
+      properties:
+        cod:
+          type: string
+          example: "404"
+        message:
+          type: string
+          example: city not found
